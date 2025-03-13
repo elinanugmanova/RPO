@@ -46,11 +46,12 @@ android {
 }
 
 dependencies {
-
-    implementation libs.appcompat
-    implementation libs.material
-    implementation libs.constraintlayout
+    implementation libs.appcompat.v131
+    implementation libs.material.v1120
+    implementation libs.constraintlayout.v221
+    implementation libs.activity
     testImplementation libs.junit
-    androidTestImplementation libs.ext.junit
-    androidTestImplementation libs.espresso.core
+    androidTestImplementation libs.junit.v113
+    androidTestImplementation libs.espresso.core.v340
+    implementation libs.commons.codec
 }
