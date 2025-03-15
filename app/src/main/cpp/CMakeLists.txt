@@ -38,15 +38,15 @@ target_link_libraries(${CMAKE_PROJECT_NAME}
 
 add_library(spdlog STATIC IMPORTED)
 set_target_properties(spdlog PROPERTIES IMPORTED_LOCATION
-        C:/Users/elina/libs/spdlog/build/${ANDROID_ABI}/libspdlog.a)
+        C:/Users/elina/RPO_Nugmanova/libs/spdlog/build/${ANDROID_ABI}/libspdlog.a)
 
 add_library(mbedcrypto SHARED IMPORTED)
 set_target_properties(mbedcrypto PROPERTIES IMPORTED_LOCATION
-        C:/Users/elina/libs/mbedtls/build/${ANDROID_ABI}/library/libmbedcrypto.so)
+        C:/Users/elina/RPO_Nugmanova/libs/mbedtls/build/${ANDROID_ABI}/library/libmbedcrypto.so)
 
 target_include_directories(fclient PUBLIC
-        C:/Users/elina/libs/spdlog/spdlog/include
-        C:/Users/elina/libs/mbedtls/mbedtls/include
+        C:/Users/elina/RPO_Nugmanova/libs/spdlog/spdlog/include
+        C:/Users/elina/RPO_Nugmanova/libs/mbedtls/mbedtls/include
 )
 
 # Specifies libraries CMake should link to your target library. You
