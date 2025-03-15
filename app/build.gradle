@@ -54,4 +54,5 @@ dependencies {
     androidTestImplementation libs.junit.v113
     androidTestImplementation libs.espresso.core.v340
     implementation libs.commons.codec
+    implementation libs.commons.io
 }
