@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/elina/RPO_Nugmanova/libs/spdlog/spdlog
+# Install script for directory: C:/Users/elina/libs/spdlog/spdlog
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,30 +44,30 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/elina/RPO_Nugmanova/libs/spdlog/build/x86_64/example/cmake_install.cmake")
+  include("C:/Users/elina/libs/spdlog/build/x86_64/example/cmake_install.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "C:/Users/elina/RPO_Nugmanova/libs/spdlog/spdlog/include/" REGEX "/fmt\\/bundled$" EXCLUDE)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "C:/Users/elina/libs/spdlog/spdlog/include/" REGEX "/fmt\\/bundled$" EXCLUDE)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/elina/RPO_Nugmanova/libs/spdlog/build/x86_64/libspdlog.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/elina/libs/spdlog/build/x86_64/libspdlog.a")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/spdlog/fmt/bundled/" TYPE DIRECTORY FILES "C:/Users/elina/RPO_Nugmanova/libs/spdlog/spdlog/include/spdlog/fmt/bundled/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/spdlog/fmt/bundled/" TYPE DIRECTORY FILES "C:/Users/elina/libs/spdlog/spdlog/include/spdlog/fmt/bundled/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "C:/Users/elina/RPO_Nugmanova/libs/spdlog/build/x86_64/spdlog.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "C:/Users/elina/libs/spdlog/build/x86_64/spdlog.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/spdlog/spdlogConfigTargets.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/spdlog/spdlogConfigTargets.cmake"
-         "C:/Users/elina/RPO_Nugmanova/libs/spdlog/build/x86_64/CMakeFiles/Export/lib/cmake/spdlog/spdlogConfigTargets.cmake")
+         "C:/Users/elina/libs/spdlog/build/x86_64/CMakeFiles/Export/lib/cmake/spdlog/spdlogConfigTargets.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/spdlog/spdlogConfigTargets-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -76,16 +76,16 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/spdlog" TYPE FILE FILES "C:/Users/elina/RPO_Nugmanova/libs/spdlog/build/x86_64/CMakeFiles/Export/lib/cmake/spdlog/spdlogConfigTargets.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/spdlog" TYPE FILE FILES "C:/Users/elina/libs/spdlog/build/x86_64/CMakeFiles/Export/lib/cmake/spdlog/spdlogConfigTargets.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/spdlog" TYPE FILE FILES "C:/Users/elina/RPO_Nugmanova/libs/spdlog/build/x86_64/CMakeFiles/Export/lib/cmake/spdlog/spdlogConfigTargets-release.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/spdlog" TYPE FILE FILES "C:/Users/elina/libs/spdlog/build/x86_64/CMakeFiles/Export/lib/cmake/spdlog/spdlogConfigTargets-release.cmake")
   endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/spdlog" TYPE FILE FILES
-    "C:/Users/elina/RPO_Nugmanova/libs/spdlog/build/x86_64/spdlogConfig.cmake"
-    "C:/Users/elina/RPO_Nugmanova/libs/spdlog/build/x86_64/spdlogConfigVersion.cmake"
+    "C:/Users/elina/libs/spdlog/build/x86_64/spdlogConfig.cmake"
+    "C:/Users/elina/libs/spdlog/build/x86_64/spdlogConfigVersion.cmake"
     )
 endif()
 
@@ -97,5 +97,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/elina/RPO_Nugmanova/libs/spdlog/build/x86_64/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/elina/libs/spdlog/build/x86_64/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/elina/RPO_Nugmanova/libs/spdlog/spdlog/example
+# Install script for directory: C:/Users/elina/libs/spdlog/spdlog/example
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

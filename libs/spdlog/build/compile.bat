@@ -1,13 +1,14 @@
 ::set ABI=armaebi-v7a
-set ABI=x86
+::set ABI=x86
 ::set ABI=arm64-v8a
-::set ABI=x86_64
+set ABI=x86_64
 
 set ANDROID_NDK=C:\Users\elina\AppData\Local\Android\Sdk\ndk\27.0.12077973
 set TOOL_CHAIN=%ANDROID_NDK%\build\cmake\android.toolchain.cmake
 set CMAKE=C:\Users\elina\AppData\Local\Android\Sdk\cmake\3.22.1\bin\cmake.exe
 
 set PATH=%PATH%;C:\Users\elina\AppData\Local\Android\Sdk\cmake\3.22.1\bin
+
 mkdir %ABI%
 cd %ABI%
 
